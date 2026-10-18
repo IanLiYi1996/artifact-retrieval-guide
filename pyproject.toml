@@ -1,0 +1,11 @@
+[project]
+name = "artifact-retrieval"
+version = "0.1.0"
+description = "文物检索入门：关键词(BM25) + Embedding 向量检索 + 混合检索(RRF) + 概念距离"
+requires-python = ">=3.12"
+dependencies = [
+    "jieba>=0.42.1",
+    "numpy>=2.5.4",
+    "rank-bm25>=0.2.2",
+    "sentence-transformers>=6.1.0",
+]
